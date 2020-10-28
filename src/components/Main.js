@@ -40,10 +40,10 @@ class Main extends Component {
                     <div className="container">
                     <h1>Connecting Businesses & People</h1>
                         <div className="row">
-                            <div className="col">
+                            <div className="col-sm-6">
                                 <button className="round-button btn btn-warning"><a href="/">Get in touch</a></button>
                             </div>
-                            <div className="col">
+                            <div className="col-sm-6">
                                 <button className="round-button btn btn-warning"><a href="/">Join Us</a></button>
                             </div>
                         </div>
