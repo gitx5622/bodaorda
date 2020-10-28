@@ -41,10 +41,10 @@ class Main extends Component {
                     <h1>Connecting Businesses & People</h1>
                         <div className="row">
                             <div className="col">
-                                <button className="round-button btn btn-warning"><a href="/">Posts</a></button>
+                                <button className="round-button btn btn-warning"><a href="/">Get in touch</a></button>
                             </div>
                             <div className="col">
-                                <button className="round-button btn btn-warning"><a href="/">See posts</a></button>
+                                <button className="round-button btn btn-warning"><a href="/">Join Us</a></button>
                             </div>
                         </div>
                     </div>
