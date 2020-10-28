@@ -1,15 +1,17 @@
 import React from 'react';
+import * as serviceWorker from './serviceWorker';
+import { LOGIN_SUCCESS} from "./store/auth/actionTypes";
+import reducer from "./store/combinedReducer";
+import {createStore, compose, applyMiddleware} from 'redux';
+import setAuthorizationToken from "./authorization";
+import {Provider} from 'react-redux';
+import thunk from 'redux-thunk';
+import logger from 'redux-logger';
 import ReactDOM from 'react-dom';
 import App from './App';
 import 'antd/dist/antd.css';
-import * as serviceWorker from './serviceWorker';
-import {createStore, compose, applyMiddleware} from 'redux';
-import {Provider} from 'react-redux';
-import thunk from 'redux-thunk';
-import logger from 'redux-logger'
-import setAuthorizationToken from "./authorization";
-import { LOGIN_SUCCESS} from "./store/auth/actionTypes";
-import reducer from "./store/combinedReducer";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "shards-ui/dist/css/shards.min.css"
 
 const composeEnhances = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(reducer, composeEnhances(

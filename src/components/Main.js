@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Col, Row} from "antd";
+import {Col, Row} from "shards-react";
 import pic1 from "../images/pic1.png"
 import MainFooter from "../components/MainFooter";
 import Navbar from "../components/Navbar";
@@ -20,10 +20,10 @@ class Main extends Component {
                     </button>
                 </div>
                 <Row>
-                    <Col span={8}>
+                    <Col sm="4" xs="12">
                        <img width={200} height={400} src={pic1} alt={pic1}/>
                     </Col>
-                    <Col span={16} className="parcels">
+                    <Col sm="8" xs="12" className="parcels">
                         <center><h1>Parcel Delivery & Errands</h1></center>
                         <ol>
                             <li>Open the App and choose the Parcel Service</li>
@@ -51,7 +51,7 @@ class Main extends Component {
                 </Row><br/>
                 <div className="container">
                 <Row className="whatwedo">
-                    <Col span={16} >
+                    <Col sm="8" xs="12" >
                         <center><h3><strong>Boda Orda</strong></h3></center>
                         <center><h3>All connections at the touch of a button.</h3></center>
                         <h5>RELIABLE</h5>
@@ -68,7 +68,7 @@ class Main extends Component {
                         <p>By using our service you're giving business to the local transport industry.</p>
                         <button className="button btn btn-primary animated flip">Download App</button>
                     </Col>
-                    <Col span={8}>
+                    <Col sm="4" xs="12">
                         <img width={300} height={600} src={pic1} alt={pic1} style={{marginLeft:"50px"}}/>
                     </Col>
                 </Row><br/>

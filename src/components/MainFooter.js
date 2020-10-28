@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import {Col, Layout, Row} from "antd";
+import {Col, Row} from "shards-react";
+import { Layout } from "antd"
 
 const {Footer } = Layout;
 
@@ -9,7 +10,7 @@ class MainFooter extends Component {
             <div>
                 <Footer style={{ textAlign: 'center', color:"white", backgroundColor:"#467379" }}>
                     <Row>
-                        <Col span={6}>
+                        <Col sm="3" xs="12">
                             <h1>Boda Orda</h1>
                             <h5>
                             Jobs<br/>
@@ -21,7 +22,7 @@ class MainFooter extends Component {
 
                             </h5>
                         </Col>
-                        <Col span={6}>
+                        <Col sm="3" xs="12">
                             <h5>
                                 <h3>Home</h3>
                                 E-commerce<br/>
@@ -32,7 +33,7 @@ class MainFooter extends Component {
 
                             </h5>
                         </Col>
-                        <Col span={6}>
+                        <Col sm="3" xs="12">
                             <h5>
                                 <h3>Careers</h3>
                                 Blog<br/>
@@ -40,7 +41,7 @@ class MainFooter extends Component {
                                 Owner Login
                             </h5>
                         </Col>
-                        <Col span={6}>
+                        <Col sm="3" xs="12">
                             <h5>
                                 <h3>Contact Us</h3>
                                 Convent Road<br/>
