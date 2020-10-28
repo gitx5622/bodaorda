@@ -7,10 +7,10 @@ class MainFooter extends Component {
     render() {
         return (
             <div>
-                <Footer style={{ textAlign: 'center', backgroundColor:"#FFCC00" }}>
+                <Footer style={{ textAlign: 'center', color:"white", backgroundColor:"#467379" }}>
                     <Row>
                         <Col span={6}>
-                            <h1>Boda_Orda</h1>
+                            <h1>Boda Orda</h1>
                             <h5>
                             Jobs<br/>
                             Gate No. 35, Convent Road,

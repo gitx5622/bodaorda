@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Layout, Menu} from 'antd';
 import {useDispatch, useSelector} from "react-redux";
@@ -37,12 +37,12 @@ const  Navbar = () => {
                     <Header>
                         <div className="logo" />
                         <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']}>
-                            <Menu.Item key="1">Boda_Orda</Menu.Item>
+                            <Menu.Item key="1"><NavLink to="/">BODA ORDA</NavLink></Menu.Item>
                             { isAuthenticated ? SignedOutLinks: SignedInLinks }
-                            <Menu.Item style={{float:"right"}} key="3">CONTACT</Menu.Item>
-                            <Menu.Item style={{float:"right"}} key="4">Why Boda Orda ?</Menu.Item>
-                            <Menu.Item style={{float:"right"}} key="5">ABOUT US</Menu.Item>
-                            <Menu.Item style={{float:"right"}} key="6">HOME</Menu.Item>
+                            <Menu.Item style={{float:"right"}} key="3"><NavLink to="/">CONTACT</NavLink></Menu.Item>
+                            <Menu.Item style={{float:"right"}} key="4"><NavLink to="/">Why Boda Orda ?</NavLink></Menu.Item>
+                            <Menu.Item style={{float:"right"}} key="5"><NavLink to="/">ABOUT US</NavLink></Menu.Item>
+                            <Menu.Item style={{float:"right"}} key="6"><NavLink to="/">HOME</NavLink></Menu.Item>
                         </Menu>
                     </Header>
                     <Content style={{ padding: '0 50px' }}>
