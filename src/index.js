@@ -10,8 +10,6 @@ import logger from 'redux-logger';
 import ReactDOM from 'react-dom';
 import App from './App';
 import 'antd/dist/antd.css';
-import "bootstrap/dist/css/bootstrap.min.css";
-import "shards-ui/dist/css/shards.min.css"
 
 const composeEnhances = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(reducer, composeEnhances(
