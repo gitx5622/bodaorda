@@ -66,7 +66,7 @@ class Main extends Component {
                             You and the recepient will be notified of the packages progress in real time too!</p>
                         <h5>IMPROVE LIVES</h5>
                         <p>By using our service you're giving business to the local transport industry.</p>
-                        <button className="button btn btn-primary animated flip">Download App</button>
+                        <button className="button btn btn-primary animated flip">Download App</button><br/>
                     </Col>
                     <Col sm={8} xs={24}>
                         <img width={300} height={600} src={pic1} alt={pic1} style={{marginLeft:"30px"}}/>
