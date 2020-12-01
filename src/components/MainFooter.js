@@ -7,10 +7,10 @@ class MainFooter extends Component {
     render() {
         return (
             <div>
-                <Footer style={{ textAlign: 'center', color:"white", backgroundColor:"#467379" }}>
+                <Footer style={{ textAlign: 'center', color:"white", backgroundColor:"rgb(52, 71, 84)" }}>
                     <Row>
                         <Col sm={6} xs={24}>
-                            <h1>Boda Orda</h1>
+                            <h3 className="text-white">Boda Orda</h3>
                             <h5>
                             Jobs<br/>
                             Gate No. 35, Convent Road,
@@ -23,7 +23,7 @@ class MainFooter extends Component {
                         </Col>
                         <Col sm={6} xs={24}>
                             <h5>
-                                <h3>Home</h3>
+                                <h3 className="text-white">Home</h3>
                                 E-commerce<br/>
                                 Enterprise<br/>
                                 Freight<br/>
@@ -34,7 +34,7 @@ class MainFooter extends Component {
                         </Col>
                         <Col sm={6} xs={24}>
                             <h5>
-                                <h3>Careers</h3>
+                                <h3 className="text-white">Careers</h3>
                                 Blog<br/>
                                 Drivers<br/>
                                 Owner Login
@@ -42,7 +42,7 @@ class MainFooter extends Component {
                         </Col>
                         <Col sm={6} xs={24}>
                             <h5>
-                                <h3>Contact Us</h3>
+                                <h3 className="text-white">Contact Us</h3>
                                 Convent Road<br/>
                                 0741 790 736<br/>
                                 supportke@bodaorda.com
